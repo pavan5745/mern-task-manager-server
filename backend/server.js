@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
-    origin: ["http://localhost:3000/", "https://mern-task-app-69j2.onrender.com/"],
+    origin: ["http://localhost:3000/", "https://mern-task-manager-3kwv.onrender.com/"],
   })
 );
 app.use(taskRoutes);
